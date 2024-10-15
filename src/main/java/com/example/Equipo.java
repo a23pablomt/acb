@@ -30,7 +30,7 @@ public class Equipo {
     }
 
     public int getPuntos(){
-        return puntosAFavor;
+        return puntosAFavor * 2 + empates;
     }
 
     public int getPartidosJugados() {
